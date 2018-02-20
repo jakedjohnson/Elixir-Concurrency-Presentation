@@ -1,0 +1,10 @@
+{application,elixir_presentation,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"elixir_presentation"},
+              {modules,['Elixir.ECP.Eight','Elixir.ECP.Five',
+                        'Elixir.ECP.Four','Elixir.ECP.Nine','Elixir.ECP.One',
+                        'Elixir.ECP.Seven','Elixir.ECP.Six','Elixir.ECP.Ten',
+                        'Elixir.ECP.Three','Elixir.ECP.Two']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]}]}.
